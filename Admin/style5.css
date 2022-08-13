@@ -1,0 +1,136 @@
+
+.head1{
+    color: rgb(177, 174, 174);
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn{
+    margin-left: 10px;
+    
+}
+.btn-outline-success{
+    position: relative;
+    right: 15px;
+
+}
+
+.btn-outline-primary{
+    position: relative;
+    left: 10px;
+    
+}
+.cr-img{
+    width: 100% !important;
+    height: 750px !important;
+}
+
+.nav-item{
+    border-style:solid ;
+    border-color: rgb(199, 219, 243);
+    margin-left: 5px;
+    border-radius: 0.2cm;
+    margin-top:7px ;
+
+}
+
+.nav-item:hover{
+    background-color: rgb(157, 157, 194);
+}
+
+.card{
+    border-radius: 2px;
+    
+    box-shadow: 2px 2px 8px 5px rgb(95, 94, 94);
+    position: relative;
+    left: 30px;
+    height: 310px;
+    top: 20px;
+    margin-top: 10px;
+   
+}
+.card-img-top{
+    height: 200px !important;
+    
+}
+.card-text{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
+.card-body{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration: underline;
+}  
+
+.head2{
+    color: rgb(3, 72, 77);
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.d1{
+    background-color: rgb(202, 201, 252);
+   
+
+}
+
+.footer1{
+    color: rgb(226, 210, 210);
+    list-style-type: none;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    opacity: 0.4;
+    position: relative;
+    top: 50px;
+}
+
+.footer2{
+    background-color: rgb(121, 138, 138);
+    
+    
+}
+.footer{
+    background-color:  rgb(32, 26, 26) !important;
+    height: 300px;
+    position: relative;
+    top: 80px;
+}
+.para{
+    color: rgb(253, 252, 252);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    opacity: 0.6;
+    height: 100px;
+    
+}
+
+.a1{
+    position: relative;
+    top: 50px;
+    text-decoration: none;
+    color:  rgb(130, 134, 136);
+    margin-left:5px ;
+}
+
+
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}

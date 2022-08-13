@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Routes</title>
+    <link rel="stylesheet" href="style4.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<style>
+    body {
+      background-color: rgb(180, 192, 202);
+    }
+    </style>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<body>
+     <!-- Creating Logo First -->
+     <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <h1 class="head1">SHAH GI BUSES</h1>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                <a class="btn btn-outline-primary" href="Login.php" role="button">Login</a>
+                <a class="btn btn-outline-primary" href="Register.php" role="button">Register</a>
+                <!-- <button type="button" class="btn btn-outline-primary">Register</button> -->
+            </form>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Bus Routes
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="medicine.html">KARACHI</a></li>
+                            <li><a class="dropdown-item" href="medicine.html">LAHORE</a></li>
+                            <!-- <li><hr class="dropdown-divider"></li> -->
+                            <li><a class="dropdown-item" href="medicine.html">ISLAMABAD</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">AboutUs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact us.php">ContactUs</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>KARACHI</h1>
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="bus1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Karachi To Lahore</h5>
+                  <p class="card-text">Click Below To See The Timings!</p>
+                  <a href="book.php" class="btn btn-primary">Book Now</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="bus7.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Karachi To Peshawar</h5>
+                  <p class="card-text">Click Below To See The Timings!</p>
+                  <a href="book.php" class="btn btn-primary">Book Now</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="bus3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Karachi To Islamabad</h5>
+                  <p class="card-text">Click Below To See The Timings!<p>
+                  <a href="book.php" class="btn btn-primary">Book Now</a>
+                </div>
+              </div>
+          </div>
+        </div>
+        <h1>LAHORE</h1>
+
+        <div class="row align-items-center">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="bus4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Lahore To Karachi</h5>
+                      <p class="card-text">Click Below To See The Timings!</p>
+                      <a href="book.php" class="btn btn-primary">ShopNow</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="bus5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Lahore To Islamabad</h5>
+                      <p class="card-text">Click Below To See The Timings!</p>
+                      <a href="book.php" class="btn btn-primary">BookNow</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="bus8.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Lahore To Peshawar</h5>
+                      <p class="card-text"> Click Below To See The Timings!!</p>
+                      <a href="book.php" class="btn btn-primary">Book Now</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <h1>ISLAMABAD</h1>
+          <div class="row align-items-end">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="bus2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Islamabad To Karachi</h5>
+                      <p class="card-text">Click Below To See The Timings !</p>
+                      <a href="book.php" class="btn btn-primary">Book Now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="bus6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Islamabad To Lahore</h5>
+                      <p class="card-text">Click Below To See The Timings!</p>
+                      <a href="book.php" class="btn btn-primary">Book Now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="bus9.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Islamabad To Peshawar</h5>
+                      <p class="card-text">Click Below To See The Timings!</p>
+                      <a href="book.php" class="btn btn-primary">Book Now</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+    
+</body>
+</html>
